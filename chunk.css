@@ -294,54 +294,54 @@ pre.w-code-block code {
   display: contents;
 }
 
-.w-webflow-badge, .w-webflow-badge * {
-  z-index: auto;
-  visibility: visible;
-  box-sizing: border-box;
-  float: none;
-  clear: none;
-  box-shadow: none;
-  opacity: 1;
-  direction: ltr;
-  font-family: inherit;
-  font-weight: inherit;
-  color: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  font-style: inherit;
-  font-variant: inherit;
-  text-align: inherit;
-  letter-spacing: inherit;
-  -webkit-text-decoration: inherit;
-  text-decoration: inherit;
-  text-indent: 0;
-  text-transform: inherit;
-  text-shadow: none;
-  font-smoothing: auto;
-  vertical-align: baseline;
-  cursor: inherit;
-  white-space: inherit;
-  word-break: normal;
-  word-spacing: normal;
-  word-wrap: normal;
-  background: none;
-  border: 0 #0000;
-  border-radius: 0;
-  width: auto;
-  min-width: 0;
-  max-width: none;
-  height: auto;
-  min-height: 0;
-  max-height: none;
-  margin: 0;
-  padding: 0;
-  list-style-type: disc;
-  transition: none;
-  display: block;
-  position: static;
-  inset: auto;
-  overflow: visible;
-  transform: none;
+.w-webflow-badge, .w-webflow-badge > img {
+  box-sizing: unset;
+  width: unset;
+  height: unset;
+  max-height: unset;
+  max-width: unset;
+  min-height: unset;
+  min-width: unset;
+  margin: unset;
+  padding: unset;
+  float: unset;
+  clear: unset;
+  border: unset;
+  border-radius: unset;
+  background: unset;
+  background-image: unset;
+  background-position: unset;
+  background-size: unset;
+  background-repeat: unset;
+  background-origin: unset;
+  background-clip: unset;
+  background-attachment: unset;
+  background-color: unset;
+  box-shadow: unset;
+  transform: unset;
+  direction: unset;
+  font-family: unset;
+  font-weight: unset;
+  color: unset;
+  font-size: unset;
+  line-height: unset;
+  font-style: unset;
+  font-variant: unset;
+  text-align: unset;
+  letter-spacing: unset;
+  -webkit-text-decoration: unset;
+  text-decoration: unset;
+  text-indent: unset;
+  text-transform: unset;
+  list-style-type: unset;
+  text-shadow: unset;
+  vertical-align: unset;
+  cursor: unset;
+  white-space: unset;
+  word-break: unset;
+  word-spacing: unset;
+  word-wrap: unset;
+  transition: unset;
 }
 
 .w-webflow-badge {
@@ -349,9 +349,10 @@ pre.w-code-block code {
   cursor: pointer;
   box-shadow: 0 0 0 1px #0000001a, 0 1px 3px #0000001a;
   visibility: visible !important;
+  opacity: 1 !important;
   z-index: 2147483647 !important;
   color: #aaadb0 !important;
-  opacity: 1 !important;
+  overflow: unset !important;
   background-color: #fff !important;
   border-radius: 3px !important;
   width: auto !important;
@@ -364,12 +365,12 @@ pre.w-code-block code {
   display: inline-block !important;
   position: fixed !important;
   inset: auto 12px 12px auto !important;
-  overflow: visible !important;
   transform: none !important;
 }
 
 .w-webflow-badge > img {
-  visibility: visible !important;
+  position: unset;
+  visibility: unset !important;
   opacity: 1 !important;
   vertical-align: middle !important;
   display: inline-block !important;
@@ -2161,7 +2162,7 @@ body {
 }
 
 .section_hero.iphone-16-pro {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67266871a8ab7b80700e2f5c_iPhone%2016%20Pro%20Hero.jpg");
+  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/673784c222fc47696ddced91_iPhone%2016%20Pro%20Hero.jpg");
   background-position: 50%;
   background-size: cover;
 }
@@ -2205,6 +2206,15 @@ body {
   background-position: 50%;
   background-size: cover;
   justify-content: space-between;
+  display: none;
+}
+
+.section_hero.shopping-event {
+  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/674a2c43160bab85be7a8271_Shopping%20Event%20Hero.jpg");
+  background-position: 50%;
+  background-size: cover;
+  justify-content: flex-end;
+  align-items: center;
   display: flex;
 }
 
@@ -2407,6 +2417,10 @@ body {
   margin-top: 12px;
 }
 
+.div_callout.shopping-event {
+  margin-top: 8px;
+}
+
 .paragraph_callout {
   text-align: center;
 }
@@ -2453,6 +2467,10 @@ body {
 .paragraph_promo-subhead.imac {
   font-size: 21px;
   line-height: 25px;
+}
+
+.paragraph_promo-subhead.carrier-deals {
+  width: 430px;
 }
 
 .button_promo {
@@ -2579,6 +2597,11 @@ body {
   padding-bottom: 58px;
 }
 
+.div_promo.ipad-air.split-wrapper {
+  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/674b6dc5299c1cd06632eaa7_iPad%20Air%20Promo.jpg");
+  padding-bottom: 48px;
+}
+
 .div_promo.macbook-air {
   background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6679a41af176032306638e00_MacBook%20Air%20Promo.jpg");
   background-position: 50%;
@@ -2621,6 +2644,7 @@ body {
   background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/667ee527d6a66afe97368777_Apple%20Card%20Promo.jpg");
   background-position: 50%;
   background-size: cover;
+  display: none;
 }
 
 .div_promo.trade-in {
@@ -2641,6 +2665,7 @@ body {
   background-size: cover;
   padding-top: 59px;
   padding-bottom: 59px;
+  display: none;
 }
 
 .div_promo.ai-mac {
@@ -2751,7 +2776,10 @@ body {
   background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6731563d0fce48fafac1c5a0_Apple%20Watch%20Promo.jpg");
   background-position: 50%;
   background-size: cover;
+  justify-content: center;
+  align-items: flex-start;
   padding-top: 56px;
+  display: flex;
 }
 
 .div_promo-contain {
@@ -2800,6 +2828,10 @@ body {
 .div_promo-subhead.trade-in {
   width: 315px;
   margin-top: 10px;
+}
+
+.image_ipad-air-logo {
+  height: 33px;
 }
 
 .image_vision-pro-logo {
@@ -2947,6 +2979,43 @@ body {
   color: #547eae;
 }
 
+.section_ribbion-fund {
+  justify-content: center;
+  align-items: center;
+  max-height: 52.578px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+}
+
+.div_ribbion-text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text_ribbion {
+  color: #000;
+  letter-spacing: -.3px;
+  font-family: SF Pro Text, sans-serif;
+}
+
+.div_ribbion-cta {
+  color: #0071e3;
+  letter-spacing: -.3px;
+  margin-left: 4px;
+  font-family: SF Pro Text, sans-serif;
+}
+
+.text_callout {
+  font-size: 19px;
+  line-height: 23px;
+}
+
+.text_ribbion-cta {
+  color: #0071e3;
+}
+
 @media screen and (min-width: 1280px) {
   .section_hero.vision-pro {
     justify-content: center;
@@ -3064,8 +3133,7 @@ body {
   }
 
   .section_hero {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66edb12dcd0cab87b9c5ce6d_iPhone%2016%20Hero%20Medium.jpg");
-    height: 650px;
+    height: 570px;
     padding-top: 53px;
     padding-bottom: 53px;
   }
@@ -3145,6 +3213,10 @@ body {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672fd7c75132970736a01c66_iMac%20Hero%20Medium.jpg");
   }
 
+  .section_hero.shopping-event {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/674a2d30dd188bc8878320f5_Shopping%20Event%20Hero%20Medium.jpg");
+  }
+
   .div_hero-contain {
     justify-content: flex-start;
     align-items: center;
@@ -3209,6 +3281,10 @@ body {
     margin-top: 11px;
   }
 
+  .div_callout.shopping-event {
+    margin-top: 10px;
+  }
+
   .paragraph_callout {
     font-size: 19px;
     line-height: 23px;
@@ -3239,6 +3315,10 @@ body {
     width: 200px;
   }
 
+  .paragraph_promo-subhead.carrier-deals {
+    width: 240px;
+  }
+
   .div_promo-button.apple-intelligence {
     margin-top: 14px;
   }
@@ -3267,6 +3347,12 @@ body {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6675b80777573cab00fbe9ad_iPad%20Air%20Promo%20Medium.jpeg");
     padding-top: 46px;
     padding-bottom: 46px;
+  }
+
+  .div_promo.ipad-air.split-wrapper {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/674b6e9a5c34e00150a88c65_iPad%20Air%20Promo%20Medium.jpg");
+    padding-top: 47px;
+    padding-bottom: 37px;
   }
 
   .div_promo.macbook-air {
@@ -3379,6 +3465,10 @@ body {
     margin-top: 5px;
   }
 
+  .div_promo-subhead.ipad-air {
+    margin-top: 9px;
+  }
+
   .div_promo-subhead.vision-pro {
     margin-top: 10px;
   }
@@ -3466,6 +3556,15 @@ body {
   .div_promo-callout {
     margin-top: 7px;
   }
+
+  .text_callout {
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+  .text_ribbion-cta {
+    color: #0071e3;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3523,8 +3622,8 @@ body {
 
   .section_hero.iphone-16-pro {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6726691c41f0c324a9af67db_iPhone%2016%20Pro%20Hero%20Small.jpg");
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: center;
     padding-top: 37px;
     padding-bottom: 37px;
     display: flex;
@@ -3552,7 +3651,11 @@ body {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6726763218cb074951ee3133_iMac%20Promo%20Small.jpg");
     flex-flow: column;
     justify-content: space-between;
-    display: flex;
+    display: none;
+  }
+
+  .section_hero.shopping-event {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/674a2e75019791da084efc3d_Shopping%20Event%20Hero%20Small.jpg");
   }
 
   .paragraph_hero-heading {
@@ -3571,6 +3674,10 @@ body {
 
   .div_subhead.apple-watch {
     margin-top: 9px;
+  }
+
+  .div_subhead.shopping-event {
+    width: 310px;
   }
 
   .paragraph_subhead {
@@ -3619,6 +3726,10 @@ body {
     margin-top: 13px;
   }
 
+  .div_callout.shopping-event {
+    margin-top: 8px;
+  }
+
   .grid_promo {
     flex-flow: column;
     margin-left: 0;
@@ -3647,6 +3758,12 @@ body {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6675b86e2a6974d6d5c4119a_iPad%20Air%20Promo%20Small.jpeg");
     padding-top: 41px;
     padding-bottom: 41px;
+  }
+
+  .div_promo.ipad-air.split-wrapper {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/674b6f191349b6e88ab97777_iPad%20Air%20Promo%20Small.jpg");
+    padding-top: 42px;
+    padding-bottom: 32px;
   }
 
   .div_promo.macbook-air {
@@ -3810,6 +3927,28 @@ body {
   .div_promo-callout {
     margin-top: 8px;
   }
+
+  .section_ribbion-fund {
+    max-height: none;
+  }
+
+  .div_ribbion-text {
+    flex-flow: column;
+    width: 260px;
+  }
+
+  .text_ribbion {
+    text-align: center;
+  }
+
+  .text_callout {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .text_ribbion-cta {
+    color: #0071e3;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3900,22 +4039,4 @@ body {
   font-weight: 400;
   font-style: italic;
   font-display: swap;
-}
-/* Default for mobile and smaller devices */
-.section_hero {
-    height: auto; /* Default to auto for flexibility on smaller screens */
-}
-
-/* Laptops (width between 1024px and 1366px) */
-@media screen and (min-width: 1024px) and (max-width: 1366px) {
-    .section_hero {
-        height: 580px;
-    }
-}
-
-/* Desktops (width above 1366px) */
-@media screen and (min-width: 1367px) {
-    .section_hero {
-        height: 650px;
-    }
 }
