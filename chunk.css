@@ -2083,84 +2083,6 @@ body {
   padding-bottom: 55px;
 }
 
-.section_hero.presumed-innocent {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/666e3bbe863bd9506727357f_Presumed%20Innocent%20Hero%20Large.webp");
-  background-position: 50%;
-  background-size: cover;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.section_hero.apple-intelligence {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6670721ec0f4a03b3ad1d997_hero_ai__fsutbxvuni62_largetall.webp");
-  background-position: 50%;
-  background-size: auto;
-  margin-top: 44px;
-}
-
-.section_hero.iphone-15-pro {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/667074102cdc61984c98a118_Hero%20iPhone%2015%20Pro.webp");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.section_hero.iphone-15 {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/667075c6a5897e9f267e2017_Hero%20iPhone%2015.webp");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.section_hero.college-students {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6674b9266acef0325f1d1894_College%20Students%20Hero.jpg");
-  background-position: 50%;
-  background-size: cover;
-  flex-flow: column;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 44px;
-  display: flex;
-}
-
-.section_hero.macbook-air {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6674b9fc001d114a74088af4_MacBook%20Air%20Hero.jpeg");
-  background-position: 50%;
-  background-size: cover;
-  justify-content: center;
-  align-items: flex-start;
-  height: 740px;
-  display: flex;
-}
-
-.section_hero.iphone-family {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6679a12b6f5ce525734ee373_iPhone%20Family%20Hero.jpg");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.section_hero.ipad-pro {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6679a2a1e1ee663a927fc49d_iPad%20Pro%20Hero.jpg");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.section_hero.vision-pro {
-  justify-content: center;
-  align-items: flex-end;
-  height: 800px;
-  display: flex;
-}
-
-.section_hero.apple-event {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66cd1465f0014754a7b6b9cc_Apple%20Event%20Hero.jpg");
-  background-position: 50%;
-  background-size: cover;
-  justify-content: center;
-  align-items: flex-end;
-  display: flex;
-}
-
 .section_hero.iphone-16-pro {
   background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c515d7fb2041fb4c25de62_hero_iphone-16-pro.jpg");
   background-position: 50%;
@@ -2173,57 +2095,12 @@ body {
   background-size: cover;
 }
 
-.section_hero.apple-watch-10 {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66edc60033f08d05f864783a_Watch%20Series%2010%20Hero.jpg");
-  background-position: 50%;
-  background-size: cover;
-  justify-content: center;
-  align-items: flex-start;
-  display: flex;
-}
-
-.section_hero.macbook-pro.split-wrapper {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672fd5703dd45057d0d214a4_macbook-pro-hero.jpg");
-  background-position: 50%;
-  background-size: cover;
-  flex-flow: column;
-  justify-content: space-between;
-  height: 580px;
-  display: flex;
-}
-
-.section_hero.mac-mini {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672fd5a484887539ebc0815a_Mac%20mini%20Hero.jpg");
-  background-position: 50%;
-  background-size: cover;
-  flex-flow: column;
-  justify-content: space-between;
-  display: flex;
-}
-
 .section_hero.imac {
   background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672fd7747d577700fd31a024_iMac%20Hero.jpg");
   background-position: 50%;
   background-size: cover;
   justify-content: space-between;
   display: none;
-}
-
-.section_hero.shopping-event {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/674a2c43160bab85be7a8271_Shopping%20Event%20Hero.jpg");
-  background-position: 50%;
-  background-size: cover;
-  justify-content: flex-end;
-  align-items: center;
-  display: flex;
-}
-
-.section_hero.ipad-air {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/676e11ef0a5627d3e240f989_iPad%20Air%20Hero.jpg");
-  background-position: 50%;
-  background-size: cover;
-  justify-content: space-between;
-  display: flex;
 }
 
 .section_hero.apple-watch {
@@ -2246,18 +2123,6 @@ body {
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
-  display: flex;
-}
-
-.div_hero-contain.presumed-innocent {
-  flex-flow: column;
-  justify-content: space-between;
-  display: flex;
-}
-
-.div_hero-contain.split-wrapper {
-  justify-content: space-between;
-  height: 100%;
   display: flex;
 }
 
@@ -2289,24 +2154,8 @@ body {
   margin-top: 0;
 }
 
-.div_hero-heading.series-10 {
-  margin-top: 3px;
-}
-
 .div_subhead {
   margin-top: 6px;
-}
-
-.div_subhead.presumed-innocent {
-  margin-top: 15px;
-}
-
-.div_subhead.apple-intelligence {
-  margin-top: 4px;
-}
-
-.div_subhead.ipad-air {
-  margin-top: 15px;
 }
 
 .div_subhead.apple-watch {
@@ -2357,15 +2206,6 @@ body {
   border-color: #0000;
 }
 
-.button.elevated.dark {
-  color: #06c;
-  border-color: #06c;
-}
-
-.button.elevated.dark:hover {
-  color: #fff;
-}
-
 .button.elevated.contrast {
   color: #2997ff;
   border-color: #2997ff;
@@ -2395,73 +2235,6 @@ body {
 
 .button.white:hover {
   background-color: #fff;
-}
-
-.button.light {
-  color: #000;
-  background-color: #f5f5f7;
-}
-
-.div_hero-button {
-  grid-column-gap: 14px;
-  grid-row-gap: 14px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 19px;
-  display: flex;
-}
-
-.div_hero-button.apple-intelligence {
-  margin-top: 15px;
-}
-
-.div_hero-button.split-wrapper {
-  grid-column-gap: 13px;
-  grid-row-gap: 13px;
-  margin-top: 19px;
-}
-
-.div_hero-button.split-wrapper.iphone-16 {
-  grid-column-gap: 13px;
-  grid-row-gap: 13px;
-}
-
-.image_apple-tv-logo {
-  width: 120px;
-  margin-top: 4px;
-}
-
-.image_apple-tv-show {
-  width: 569px;
-}
-
-.image_apple-intelligence {
-  height: 53px;
-}
-
-.div_callout {
-  color: #6e6e73;
-  letter-spacing: .2px;
-  margin-top: 15px;
-  font-size: 21px;
-  line-height: 25px;
-}
-
-.div_callout.apple-intelligence {
-  margin-top: 12px;
-}
-
-.div_callout.shopping-event {
-  margin-top: 8px;
-}
-
-.paragraph_callout {
-  text-align: center;
-}
-
-.paragraph_callout.promo {
-  font-size: 17px;
-  line-height: 21px;
 }
 
 .section_promo {
@@ -2496,19 +2269,6 @@ body {
 
 .paragraph_promo-subhead.contrast {
   color: #f5f5f7;
-}
-
-.paragraph_promo-subhead.soip-suerte {
-  color: #e8e0d4;
-}
-
-.paragraph_promo-subhead.imac {
-  font-size: 21px;
-  line-height: 25px;
-}
-
-.paragraph_promo-subhead.carrier-deals {
-  width: 430px;
 }
 
 .button_promo {
@@ -2550,47 +2310,6 @@ body {
   border-color: #0000;
 }
 
-.button_promo.elevated.black {
-  color: #1d1d1f;
-  background-color: #0000;
-  border-color: #1d1d1f;
-}
-
-.button_promo.elevated.black:hover {
-  color: #fff;
-  background-color: #1d1d1f;
-  border-color: #0000;
-}
-
-.button_promo.elevated.white {
-  color: #f5f5f7;
-  background-color: #0000;
-  border-color: #f5f5f7;
-}
-
-.button_promo.elevated.white:hover {
-  color: #000;
-  background-color: #fff;
-  border-color: #0000;
-}
-
-.button_promo.black {
-  background-color: #1d1d1f;
-}
-
-.button_promo.black:hover {
-  background-color: #272729;
-}
-
-.button_promo.white {
-  color: #000;
-  background-color: #f5f5f7;
-}
-
-.button_promo.white:hover {
-  background-color: #fff;
-}
-
 .div_promo-button {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
@@ -2613,67 +2332,12 @@ body {
   background-size: cover;
 }
 
-.div_promo.ipad-pro {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6674c5a606cd74a6f6919181_iPad%20Pro%20Promo.jpeg");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.div_promo.iphone-15-pro {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6674c601321dac305a60550d_iPhone%2015%20Pro%20Promo.jpeg");
-  background-position: 50%;
-  background-size: cover;
-}
-
 .div_promo.ipad-air {
   background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/676e11ef0a5627d3e240f989_iPad%20Air%20Hero.jpg");
   background-position: 50%;
   background-size: cover;
   padding-top: 58px;
   padding-bottom: 58px;
-}
-
-.div_promo.ipad-air.split-wrapper {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/674b6dc5299c1cd06632eaa7_iPad%20Air%20Promo.jpg");
-  padding-bottom: 48px;
-}
-
-.div_promo.macbook-air {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6679a41af176032306638e00_MacBook%20Air%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.div_promo.vision-pro {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6679ab9fee9fdf2f193308ce_Vision%20Pro%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-  justify-content: center;
-  align-items: flex-end;
-  display: flex;
-}
-
-.div_promo.apple-watch {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6679ad9cd54161c93650ae02_Apple%20Watch%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-  padding-top: 59px;
-  padding-bottom: 59px;
-}
-
-.div_promo.app-store {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66b43f543cc21ae0f04dab64_App%20Store%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.div_promo.racial-equity {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/667ee1fb17ff0f3c27f2dab1_Racial%20Equity%20and%20Justice%20Initiative%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-  justify-content: center;
-  align-items: flex-end;
-  display: flex;
 }
 
 .div_promo.apple-card {
@@ -2689,12 +2353,6 @@ body {
   background-size: cover;
 }
 
-.div_promo.iphone-family {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66831e5678f97b2d4323bd16_iPhone%20Family%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-}
-
 .div_promo.apple-intelligence {
   background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67293b615e92773ad19486fd_Apple%20Intelligence%20Promo.jpg");
   background-position: 50%;
@@ -2704,108 +2362,12 @@ body {
   display: none;
 }
 
-.div_promo.ai-mac {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66946b582cac00ef98d5611e_Mac%20AI%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.div_promo.soip-suerte {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66946d824351ade47054c848_Suerte%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-  flex-flow: column;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 52px;
-  padding-bottom: 52px;
-  display: flex;
-}
-
-.div_promo.out-of-office {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/669ad147c7504ecbd88f879c_OOO%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.div_promo.apple-at-work {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66aeb5dd5a631306c4c6f90f_Apple%20at%20Work%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-}
-
 .div_promo.ultra-2 {
   background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66f2ec5ba403af8d537df97c_Ulta%202%20Promo.jpg");
   background-position: 50%;
   background-size: cover;
   padding-top: 56px;
   padding-bottom: 56px;
-}
-
-.div_promo.airpods-4 {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66f361e60eafa5a23d8a8e89_Airpods%204%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-  justify-content: center;
-  align-items: flex-end;
-  display: flex;
-}
-
-.div_promo.airpods-pro-2 {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66f3634b04f8c9cd929f4491_Airpods%20Pro%202%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-  justify-content: center;
-  align-items: flex-end;
-  display: flex;
-}
-
-.div_promo.airpods-max {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66f364d54a06f6f416464cad_Airpods%20Max%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-  justify-content: center;
-  align-items: flex-end;
-  display: flex;
-}
-
-.div_promo.carrier-deals {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66f36626c0f4479d8a1e95b5_Carrier%20Deals%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-  justify-content: center;
-  align-items: flex-end;
-  display: flex;
-}
-
-.div_promo.split-wrapper {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6726757a6ebda18a3e7b1299_iMac%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-  flex-flow: column;
-  justify-content: space-between;
-  display: flex;
-}
-
-.div_promo.split-wrapper.mac-mini {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67267202a360899135852286_Mac%20mini%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
-}
-
-.div_promo.iphone-16-pro {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672fd885316e1861587155ac_iPhone%2016%20Pro%20Hero.jpg");
-  background-position: 50%;
-  background-size: cover;
-  justify-content: center;
-  align-items: flex-end;
-  display: flex;
-}
-
-.div_promo.iphone-16 {
-  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672fd9a6316e186158720e4e_iPhone%2016%20Promo.jpg");
-  background-position: 50%;
-  background-size: cover;
 }
 
 .div_promo.apple-watch-10 {
@@ -2843,32 +2405,8 @@ body {
   margin-top: 10px;
 }
 
-.div_promo-subhead.vision-pro {
-  margin-top: 11px;
-}
-
-.div_promo-subhead.apple-watch, .div_promo-subhead.apple-card {
+.div_promo-subhead.apple-watch, .div_promo-subhead.apple-card, .div_promo-subhead.ultra-2 {
   margin-top: 9px;
-}
-
-.div_promo-subhead.apple-intelligence {
-  margin-top: 3px;
-}
-
-.div_promo-subhead.soip-suerte {
-  margin-top: 0;
-}
-
-.div_promo-subhead.ultra-2 {
-  margin-top: 9px;
-}
-
-.div_promo-subhead.airpods-pro-2 {
-  width: 400px;
-}
-
-.div_promo-subhead.carrier-deals {
-  width: 430px;
 }
 
 .div_promo-subhead.trade-in {
@@ -2884,10 +2422,6 @@ body {
   height: 33px;
 }
 
-.image_vision-pro-logo {
-  height: 34px;
-}
-
 .image_apple-watch-logo {
   height: 57px;
 }
@@ -2896,55 +2430,8 @@ body {
   height: 33px;
 }
 
-.image_trade-in {
-  height: 32px;
-}
-
-.image_vision-pro-hero-logo {
-  height: 54px;
-}
-
-.background-video_hero {
-  justify-content: center;
-  align-items: flex-end;
-  width: 100%;
-  height: 680px;
-  padding-top: 55px;
-  padding-bottom: 55px;
-  display: flex;
-  position: absolute;
-  inset: 0%;
-}
-
 .image_apple-intelligence-logo {
   height: 39px;
-}
-
-.slider_hero {
-  height: 740px;
-}
-
-.slide-nav {
-  margin-bottom: 42px;
-}
-
-.text_iphone-callout {
-  color: #1d1d1f;
-  text-align: center;
-  font-size: 21px;
-  line-height: 25px;
-}
-
-.text_iphone-callout.contrast {
-  color: #86868b;
-}
-
-.div_iphone-callout {
-  margin-top: 15px;
-}
-
-.image_ultra-2-logo {
-  height: 58px;
 }
 
 .div_cta {
@@ -2958,18 +2445,6 @@ body {
 
 .div_cta.macbook-pro {
   margin-top: 15px;
-}
-
-.div_macbook-callout {
-  margin-top: 8px;
-}
-
-.text_macbook-callout {
-  color: #86868b;
-  letter-spacing: -.3px;
-  font-family: SF Pro Text, sans-serif;
-  font-size: 19px;
-  line-height: 23px;
 }
 
 .div_split-bottom {
@@ -2986,12 +2461,6 @@ body {
   background-clip: text;
   font-size: 21px;
   line-height: 25px;
-}
-
-.text_ai-subhead.promo {
-  font-family: SF Pro Text, sans-serif;
-  font-size: 14px;
-  line-height: 18px;
 }
 
 .div_promo-callout {
@@ -3029,47 +2498,6 @@ body {
   color: #547eae;
 }
 
-.section_ribbion-fund {
-  justify-content: center;
-  align-items: center;
-  max-height: 52.578px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  display: flex;
-}
-
-.div_ribbion-text {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.text_ribbion {
-  color: #000;
-  letter-spacing: -.3px;
-  font-family: SF Pro Text, sans-serif;
-}
-
-.div_ribbion-cta {
-  color: #0071e3;
-  letter-spacing: -.3px;
-  margin-left: 4px;
-  font-family: SF Pro Text, sans-serif;
-}
-
-.text_callout {
-  font-size: 19px;
-  line-height: 23px;
-}
-
-.text_ribbion-cta {
-  color: #0071e3;
-}
-
-.logo_ipad-air {
-  height: 45px;
-}
-
 .image_hero-logo.apple-watch {
   height: 80px;
 }
@@ -3090,20 +2518,6 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
-  .section_hero.vision-pro {
-    justify-content: center;
-    align-items: flex-end;
-    height: 800px;
-    padding-top: 55px;
-    padding-bottom: 55px;
-    display: flex;
-  }
-
-  .div_hero-content-contain.vision-pro {
-    z-index: 2;
-    position: relative;
-  }
-
   .button.elevated.white {
     color: #f5f5f7;
     background-color: #0000;
@@ -3125,78 +2539,8 @@ body {
     background-color: #fff;
   }
 
-  .paragraph_promo-subhead.soip-suerte {
-    color: #e8e0d4;
-  }
-
   .button_promo.elevated.contrast:hover {
     border-color: #0077ed;
-  }
-
-  .button_promo.elevated.white {
-    color: #f5f5f7;
-    background-color: #0000;
-    border-color: #f5f5f7;
-  }
-
-  .button_promo.elevated.white:hover {
-    color: #000;
-    background-color: #fff;
-    border-color: #0000;
-  }
-
-  .div_promo.ai-mac {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66946b582cac00ef98d5611e_Mac%20AI%20Promo.jpg");
-    background-position: 50%;
-    background-size: cover;
-  }
-
-  .div_promo.soip-suerte {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66946d824351ade47054c848_Suerte%20Promo.jpg");
-    background-position: 50%;
-    background-size: cover;
-    flex-flow: column;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 52px;
-    padding-bottom: 52px;
-    display: flex;
-  }
-
-  .div_promo-subhead.soip-suerte {
-    margin-top: 0;
-  }
-
-  .image_vision-pro-hero-logo {
-    height: 54px;
-  }
-
-  .background-video_hero {
-    justify-content: center;
-    align-items: flex-end;
-    width: 100%;
-    height: 800px;
-    display: flex;
-  }
-
-  .pause-play-button {
-    background-color: #d2d2d7a3;
-    border-radius: 980px;
-    justify-content: center;
-    align-items: center;
-    width: 36px;
-    height: 36px;
-    display: flex;
-  }
-
-  .image {
-    background-color: #d2d2d7a3;
-  }
-
-  .image_play, .image_pause {
-    width: 15px;
-    height: 15px;
-    display: block;
   }
 }
 
@@ -3211,53 +2555,6 @@ body {
     padding-bottom: 53px;
   }
 
-  .section_hero.apple-intelligence {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/667072d95f755b3d491a0805_Hero%20Apple%20Intelligence%20Medium.webp");
-    background-position: 50%;
-    background-size: cover;
-    margin-top: 48px;
-  }
-
-  .section_hero.iphone-15-pro {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/667074102cdc61984c98a118_Hero%20iPhone%2015%20Pro.webp");
-    background-position: 50%;
-    background-size: cover;
-  }
-
-  .section_hero.iphone-15 {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/667075750643900a4853953f_Hero%20iPhone%2015%20Small.webp");
-  }
-
-  .section_hero.college-students {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6674b8c91766437ab23b0557_College%20Students%20Hero%20Medium.jpeg");
-    margin-top: 48px;
-  }
-
-  .section_hero.macbook-air {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6674ba5c21dc12f4a425036f_MacBook%20Air%20Hero%20Medium.jpeg");
-  }
-
-  .section_hero.iphone-family {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6679a1d13b0ef521f1908519_iPhone%20Family%20Hero%20Medium.jpg");
-  }
-
-  .section_hero.ipad-pro {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6679aadb578ad2e746038f5f_iPad%20Pro%20Promo%20Medium.jpg");
-  }
-
-  .section_hero.vision-pro {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66831c7c60ac0f3d566571b1_Apple%20Vision%20Pro%20Hero%20Medium.jpg");
-    background-position: 50%;
-    background-size: cover;
-    height: 650px;
-    padding-top: 61px;
-    padding-bottom: 61px;
-  }
-
-  .section_hero.apple-event {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66cd16bc2c09f8bd578a1d74_Apple%20Event%20Hero%20Small.jpg");
-  }
-
   .section_hero.iphone-16-pro {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672668db7827f8d31211b0dd_iPhone%2016%20Pro%20Hero%20Medium.jpg");
     padding-top: 61px;
@@ -3270,24 +2567,8 @@ body {
     padding-bottom: 61px;
   }
 
-  .section_hero.apple-watch-10 {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66ee0fe78220aa9f5441d3ca_Apple%20Watch%20S10%20Hero.jpg");
-  }
-
-  .section_hero.macbook-pro.split-wrapper {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67266da0d54d9698c0e0991e_MacBook%20Pro%20Hero%20Medium.jpg");
-  }
-
-  .section_hero.mac-mini {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672fd6329bccb65f3cff8347_Mac%20mini%20Hero%20Medium.jpg");
-  }
-
   .section_hero.imac {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672fd7c75132970736a01c66_iMac%20Hero%20Medium.jpg");
-  }
-
-  .section_hero.shopping-event {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/674a2d30dd188bc8878320f5_Shopping%20Event%20Hero%20Medium.jpg");
   }
 
   .section_hero.apple-watch {
@@ -3313,12 +2594,8 @@ body {
     line-height: 52px;
   }
 
-  .div_hero-heading.series-10, .div_hero-heading.apple-watch, .div_subhead {
+  .div_hero-heading.apple-watch, .div_subhead {
     margin-top: 5px;
-  }
-
-  .div_subhead.presumed-innocent {
-    margin-top: 17px;
   }
 
   .div_subhead.apple-watch {
@@ -3331,48 +2608,8 @@ body {
     line-height: 28px;
   }
 
-  .button.elevated.dark {
-    border-color: #06c;
-  }
-
-  .button.elevated.dark:hover {
-    color: #fff;
-    border-color: #0000;
-  }
-
   .button.elevated.contrast:hover {
     border-color: #0000;
-  }
-
-  .div_hero-button, .div_hero-button.split-wrapper {
-    margin-top: 18px;
-  }
-
-  .image_apple-tv-logo {
-    width: 100px;
-    height: auto;
-    margin-top: 8px;
-  }
-
-  .image_apple-intelligence {
-    height: 47px;
-  }
-
-  .div_callout {
-    margin-top: 14px;
-  }
-
-  .div_callout.apple-intelligence {
-    margin-top: 11px;
-  }
-
-  .div_callout.shopping-event {
-    margin-top: 10px;
-  }
-
-  .paragraph_callout {
-    font-size: 19px;
-    line-height: 23px;
   }
 
   .section_promo {
@@ -3396,18 +2633,6 @@ body {
     line-height: 23px;
   }
 
-  .paragraph_promo-subhead.contrast.app-store {
-    width: 200px;
-  }
-
-  .paragraph_promo-subhead.carrier-deals {
-    width: 240px;
-  }
-
-  .div_promo-button.apple-intelligence {
-    margin-top: 14px;
-  }
-
   .div_promo {
     height: 490px;
     padding-top: 42px;
@@ -3420,46 +2645,10 @@ body {
     background-size: cover;
   }
 
-  .div_promo.ipad-pro {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6674c77721c38f4c37ea459b_iPad%20Pro%20Promo%20Small.jpeg");
-  }
-
-  .div_promo.iphone-15-pro {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6674c7c49cece6e8861023dd_iPhone%2015%20Pro%20Promo%20Small.jpeg");
-  }
-
   .div_promo.ipad-air {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6675b80777573cab00fbe9ad_iPad%20Air%20Promo%20Medium.jpeg");
     padding-top: 46px;
     padding-bottom: 46px;
-  }
-
-  .div_promo.ipad-air.split-wrapper {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/674b6e9a5c34e00150a88c65_iPad%20Air%20Promo%20Medium.jpg");
-    padding-top: 47px;
-    padding-bottom: 37px;
-  }
-
-  .div_promo.macbook-air {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6679a4412b813805cbdf2804_MacBook%20Air%20Promo%20Medium.jpg");
-  }
-
-  .div_promo.vision-pro {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6679abf9084eba15c73d4517_Vision%20Pro%20Promo%20Medium.jpg");
-  }
-
-  .div_promo.apple-watch {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6679ae40dcbae665e71c97cc_Apple%20Watch%20Promo%20Medium.jpg");
-    padding-top: 47px;
-    padding-bottom: 47px;
-  }
-
-  .div_promo.app-store {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66b43f99ef1b19da5b485bec_App%20Store%20Promo%20Medium.jpg");
-  }
-
-  .div_promo.racial-equity {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/667ee25fe062b0d1ea0242fa_Racial%20Equity%20and%20Justice%20Initiative%20Promo%20Medium.jpg");
   }
 
   .div_promo.apple-card {
@@ -3470,32 +2659,10 @@ body {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67293cf379e5394a648036c6_Trade%20In%20Promo%20Medium.jpg");
   }
 
-  .div_promo.iphone-family {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66831e8481352903b3dcc433_iPhone%20Family%20Promo%20Medium.jpg");
-  }
-
   .div_promo.apple-intelligence {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67293b0885fe7e5cf6bca7a6_Apple%20Intelligence%20Promo.jpg");
     padding-top: 46px;
     padding-bottom: 46px;
-  }
-
-  .div_promo.ai-mac {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66946c072a26757d585e08c0_Mac%20AI%20Promo%20Medium.jpg");
-  }
-
-  .div_promo.soip-suerte {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66946fb379c4ff2e358c7e42_Suerte%20Promo%20Medium.jpg");
-    padding-top: 42px;
-    padding-bottom: 48px;
-  }
-
-  .div_promo.out-of-office {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/669ad1d0354686f3a52c56b8_OOO%20Promo%20Medium.jpg");
-  }
-
-  .div_promo.apple-at-work {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66aeb69002c3453fc6642d6a_Apple%20at%20Work%20Promo%20Medium.jpg");
   }
 
   .div_promo.ultra-2 {
@@ -3505,40 +2672,6 @@ body {
     padding-top: 45px;
     padding-bottom: 45px;
     display: flex;
-  }
-
-  .div_promo.airpods-4 {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66f362e5074e04845916abf5_Airpods%204%20Promo%20Medium.jpg");
-  }
-
-  .div_promo.airpods-pro-2 {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66f3639b957f8216930a2a8d_Airpods%20Pro%202%20Promo%20Medium.jpg");
-  }
-
-  .div_promo.airpods-max {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66f365284e79b06365043c9b_Airpods%20Max%20Promo%20Medium.jpg");
-  }
-
-  .div_promo.carrier-deals {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66f36721d48d217d9333aca8_Carrier%20Deals%20Promo%20Medium.jpg");
-  }
-
-  .div_promo.split-wrapper {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672675f4981a6c6f00713ed9_iMac%20Promo%20Medium.jpg");
-  }
-
-  .div_promo.split-wrapper.mac-mini {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672672869a46a5b5136acc16_Mac%20mini%20Promo%20Small.jpg");
-    background-position: 50%;
-    background-size: cover;
-  }
-
-  .div_promo.iphone-16-pro {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672fd8fb1acb7fad9edf8b1e_iPhone%2016%20Pro%20Hero%20Medium.jpg");
-  }
-
-  .div_promo.iphone-16 {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672fd9de664ff5ccd0d1e36d_iPhone%2016%20Promo%20Medium.jpg");
   }
 
   .div_promo.apple-watch-10 {
@@ -3554,28 +2687,8 @@ body {
     margin-top: 9px;
   }
 
-  .div_promo-subhead.vision-pro {
-    margin-top: 10px;
-  }
-
-  .div_promo-subhead.apple-intelligence {
-    margin-top: 4px;
-  }
-
   .div_promo-subhead.ultra-2 {
     letter-spacing: .2px;
-  }
-
-  .div_promo-subhead.airpods-4 {
-    width: 250px;
-  }
-
-  .div_promo-subhead.airpods-pro-2 {
-    width: 290px;
-  }
-
-  .div_promo-subhead.carrier-deals {
-    width: 240px;
   }
 
   .div_promo-subhead.trade-in {
@@ -3586,52 +2699,20 @@ body {
     height: 26px;
   }
 
-  .image_vision-pro-logo {
-    height: 27px;
-  }
-
   .image_apple-watch-logo {
     height: 45px;
   }
 
-  .image_apple-card-logo, .image_trade-in {
+  .image_apple-card-logo {
     height: 27px;
-  }
-
-  .image_vision-pro-hero-logo {
-    height: 46px;
-  }
-
-  .background-video_hero {
-    display: none;
   }
 
   .image_apple-intelligence-logo {
     height: 32px;
   }
 
-  .text_iphone-callout {
-    font-size: 19px;
-    line-height: 23px;
-  }
-
-  .image_ultra-2-logo {
-    height: 47px;
-  }
-
   .div_cta {
     margin-top: 18px;
-  }
-
-  .div_macbook-callout {
-    margin-top: 10px;
-  }
-
-  .text_macbook-callout {
-    letter-spacing: -.3px;
-    font-family: SF Pro Text, sans-serif;
-    font-size: 17px;
-    line-height: 21px;
   }
 
   .text_ai-subhead {
@@ -3640,15 +2721,6 @@ body {
 
   .div_promo-callout {
     margin-top: 7px;
-  }
-
-  .text_callout {
-    font-size: 17px;
-    line-height: 21px;
-  }
-
-  .text_ribbion-cta {
-    color: #0071e3;
   }
 
   .image_hero-logo.apple-watch {
@@ -3669,46 +2741,6 @@ body {
     display: flex;
   }
 
-  .section_hero.presumed-innocent {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/666e3bbe8e34c17ace58e1da_Presumed%20Innocent%20Hero%20Small.webp");
-  }
-
-  .section_hero.apple-intelligence {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/666e451cd5463bbd97c027d4_Apple%20Intelligence%20Hero%20Small.jpg");
-  }
-
-  .section_hero.iphone-15-pro {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6670740f2bf838d8675dfe56_Hero%20iPhone%2015%20Pro%20Small.webp");
-  }
-
-  .section_hero.iphone-15 {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6670757518d9bfcdcef0d2c6_Hero%20iPhone%2015.webp");
-  }
-
-  .section_hero.college-students {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6674b907f7ead75e08b0bd4c_College%20Students%20Hero%20Small.jpeg");
-    margin-top: 48px;
-  }
-
-  .section_hero.macbook-air {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6674ba8cec48d362d3e98abd_MacBook%20Air%20Hero%20Small.jpeg");
-  }
-
-  .section_hero.iphone-family {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6679a1fdc5f6da66e25e405a_iPhone%20Family%20Hero%20Small.jpg");
-  }
-
-  .section_hero.ipad-pro {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6674c888eec2e5dc88941c85_iPad%20Pro%20Promo%20Extrasmall.jpeg");
-  }
-
-  .section_hero.vision-pro {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66831cfc1f4c0f26e9340b8a_Apple%20Vision%20Pro%20Hero%20Small.jpg");
-    height: 550px;
-    padding-top: 37px;
-    padding-bottom: 37px;
-  }
-
   .section_hero.iphone-16-pro {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6726691c41f0c324a9af67db_iPhone%2016%20Pro%20Hero%20Small.jpg");
     justify-content: flex-end;
@@ -3724,27 +2756,11 @@ body {
     padding-bottom: 37px;
   }
 
-  .section_hero.apple-watch-10 {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66ee100945c705b11e17bc7c_Apple%20Watch%20S10%20Hero%20Small.jpg");
-  }
-
-  .section_hero.macbook-pro.split-wrapper {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67266e6c8efb3dd3357a8984_MacBook%20Pro%20Hero%20Small.jpg");
-  }
-
-  .section_hero.mac-mini {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672672869a46a5b5136acc16_Mac%20mini%20Promo%20Small.jpg");
-  }
-
   .section_hero.imac {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6726763218cb074951ee3133_iMac%20Promo%20Small.jpg");
     flex-flow: column;
     justify-content: space-between;
     display: none;
-  }
-
-  .section_hero.shopping-event {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/674a2e75019791da084efc3d_Shopping%20Event%20Hero%20Small.jpg");
   }
 
   .section_hero.iphone-16e {
@@ -3760,20 +2776,12 @@ body {
     line-height: 36px;
   }
 
-  .div_hero-heading.series-10, .div_subhead {
+  .div_subhead {
     margin-top: 4px;
-  }
-
-  .div_subhead.presumed-innocent {
-    margin-top: 10px;
   }
 
   .div_subhead.apple-watch {
     margin-top: 9px;
-  }
-
-  .div_subhead.shopping-event {
-    width: 310px;
   }
 
   .div_subhead.iphone-16e {
@@ -3799,45 +2807,6 @@ body {
     display: flex;
   }
 
-  .div_hero-button {
-    margin-top: 17px;
-  }
-
-  .div_hero-button.apple-intelligence {
-    margin-top: 14px;
-  }
-
-  .div_hero-button.split-wrapper {
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    margin-top: 17px;
-  }
-
-  .div_hero-button.split-wrapper.iphone-16 {
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-  }
-
-  .image_apple-tv-logo {
-    margin-top: 3px;
-  }
-
-  .image_apple-tv-show {
-    width: 277px;
-  }
-
-  .image_apple-intelligence {
-    height: 32px;
-  }
-
-  .div_callout, .div_callout.apple-intelligence {
-    margin-top: 13px;
-  }
-
-  .div_callout.shopping-event {
-    margin-top: 8px;
-  }
-
   .grid_promo {
     flex-flow: column;
     margin-left: 0;
@@ -3854,48 +2823,10 @@ body {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6674c83d321dac305a622d1e_MacBook%20Pro%20Promo%20ExtraSmall.jpeg");
   }
 
-  .div_promo.ipad-pro {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6674c888eec2e5dc88941c85_iPad%20Pro%20Promo%20Extrasmall.jpeg");
-  }
-
-  .div_promo.iphone-15-pro {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6674c8b4eec2e5dc88943695_iPhone%2015%20Pro%20Promo%20Extrasmall.jpeg");
-  }
-
   .div_promo.ipad-air {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6675b86e2a6974d6d5c4119a_iPad%20Air%20Promo%20Small.jpeg");
     padding-top: 41px;
     padding-bottom: 41px;
-  }
-
-  .div_promo.ipad-air.split-wrapper {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/674b6f191349b6e88ab97777_iPad%20Air%20Promo%20Small.jpg");
-    padding-top: 42px;
-    padding-bottom: 32px;
-  }
-
-  .div_promo.macbook-air {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6674ba8cec48d362d3e98abd_MacBook%20Air%20Hero%20Small.jpeg");
-  }
-
-  .div_promo.vision-pro {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6679ac8adbd3fd49c41b6e1f_Vision%20Pro%20Promo%20Small.jpg");
-    background-position: 50%;
-    background-size: cover;
-  }
-
-  .div_promo.apple-watch {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6679aea29a29f9f64c2535c9_Apple%20Watch%20Promo%20Small.jpg");
-    padding-top: 43px;
-    padding-bottom: 43px;
-  }
-
-  .div_promo.app-store {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66b43fc2c5c9b0d1e4480411_App%20Store%20Promo%20Small.jpg");
-  }
-
-  .div_promo.racial-equity {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/667ee2b210360d1548d2d88b_Racial%20Equity%20and%20Justice%20Initiative%20Promo%20Small.jpg");
   }
 
   .div_promo.apple-card {
@@ -3906,32 +2837,10 @@ body {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67293d0edfa1f6d293e2c00a_Trade%20In%20Promo%20Small.jpg");
   }
 
-  .div_promo.iphone-family {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6679a1fdc5f6da66e25e405a_iPhone%20Family%20Hero%20Small.jpg");
-  }
-
   .div_promo.apple-intelligence {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67293ba62abc9e352ecd5ee6_Apple%20Intelligence%20Promo%20Small.jpg");
     padding-top: 41px;
     padding-bottom: 41px;
-  }
-
-  .div_promo.ai-mac {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66946c3a4351ade470541b33_Mac%20AI%20Promo%20Small.jpg");
-  }
-
-  .div_promo.soip-suerte {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6694704a404e90e454a17599_Suerte%20Promo%20Small.jpg");
-    padding-top: 38px;
-    padding-bottom: 43px;
-  }
-
-  .div_promo.out-of-office {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/669ad201354686f3a52c7b43_OOO%20Promo%20Small.jpg");
-  }
-
-  .div_promo.apple-at-work {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66aeb6bdf10c6d4a4f3c2d30_Apple%20at%20Work%20Promo%20Small.jpg");
   }
 
   .div_promo.ultra-2 {
@@ -3940,75 +2849,13 @@ body {
     padding-bottom: 40px;
   }
 
-  .div_promo.airpods-4 {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66f3631b7fad90a8f717a3f0_Airpods%204%20Promo%20Small.jpg");
-    justify-content: center;
-    align-items: flex-end;
-    display: flex;
-  }
-
-  .div_promo.airpods-pro-2 {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66f36453274968c5aa7f20ac_Airpods%20Pro%202%20Promo%20Small.jpg");
-  }
-
-  .div_promo.airpods-max {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66f36551c82b1e5845d55ba9_Airpods%20Max%20Promo%20Small.jpg");
-  }
-
-  .div_promo.carrier-deals {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/66f36781074e0484591accf1_Carrier%20Deals%20Promo%20Small.jpg");
-  }
-
-  .div_promo.split-wrapper {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6726763218cb074951ee3133_iMac%20Promo%20Small.jpg");
-  }
-
-  .div_promo.split-wrapper.mac-mini {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672672869a46a5b5136acc16_Mac%20mini%20Promo%20Small.jpg");
-    background-position: 50%;
-    background-size: cover;
-  }
-
-  .div_promo.iphone-16-pro {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/6726691c41f0c324a9af67db_iPhone%2016%20Pro%20Hero%20Small.jpg");
-  }
-
-  .div_promo.iphone-16 {
-    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/672669d8981a6c6f0068420d_iPhone%2016%20Hero%20Small.jpg");
-  }
-
   .div_promo.apple-watch-10 {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67315728b4c68c8bc6f31531_Apple%20Watch%20Promo%20Small.jpg");
     padding-top: 41px;
   }
 
-  .div_promo-subhead.vision-pro {
-    margin-top: 11px;
-  }
-
-  .image_vision-pro-logo {
-    height: 27px;
-  }
-
   .image_apple-watch-logo {
     height: 45px;
-  }
-
-  .image_vision-pro-hero-logo {
-    height: 31px;
-  }
-
-  .text_iphone-callout {
-    font-size: 17px;
-    line-height: 21px;
-  }
-
-  .div_iphone-callout {
-    margin-top: 14px;
-  }
-
-  .image_ultra-2-logo {
-    height: 36px;
   }
 
   .div_cta {
@@ -4021,11 +2868,7 @@ body {
     margin-top: 14px;
   }
 
-  .div_macbook-callout {
-    margin-top: 8px;
-  }
-
-  .text_macbook-callout, .text_ai-subhead {
+  .text_ai-subhead {
     letter-spacing: -.2px;
     font-family: SF Pro Text, sans-serif;
     font-size: 14px;
@@ -4034,28 +2877,6 @@ body {
 
   .div_promo-callout {
     margin-top: 8px;
-  }
-
-  .section_ribbion-fund {
-    max-height: none;
-  }
-
-  .div_ribbion-text {
-    flex-flow: column;
-    width: 260px;
-  }
-
-  .text_ribbion {
-    text-align: center;
-  }
-
-  .text_callout {
-    font-size: 14px;
-    line-height: 18px;
-  }
-
-  .text_ribbion-cta {
-    color: #0071e3;
   }
 }
 
@@ -4074,7 +2895,7 @@ body {
     padding-bottom: 37px;
   }
 
-  .div_hero-heading.series-10, .div_hero-heading.apple-watch {
+  .div_hero-heading.apple-watch {
     margin-top: 4px;
   }
 
@@ -4082,16 +2903,7 @@ body {
     margin-top: 9px;
   }
 
-  .image_apple-watch-logo {
-    height: 45px;
-  }
-
-  .text_iphone-callout, .text_iphone-callout.contrast {
-    font-size: 17px;
-    line-height: 21px;
-  }
-
-  .image_hero-logo.apple-watch {
+  .image_apple-watch-logo, .image_hero-logo.apple-watch {
     height: 45px;
   }
 }
