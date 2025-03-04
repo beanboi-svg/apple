@@ -2081,6 +2081,7 @@ body {
   height: 692px;
   padding-top: 55px;
   padding-bottom: 55px;
+  display: flex;
 }
 
 .section_hero.iphone-16-pro {
@@ -2119,11 +2120,81 @@ body {
   display: flex;
 }
 
+.section_hero.iphone-14-pro {
+  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c5443a51446a1712d11155_hero_iphone-14-pro.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.section_hero.iphone-14 {
+  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c544afbbc34cfede344033_hero_jphone-14.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.section_hero.iphone-13-pro {
+  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c5460f3090fd4bbfb8cfbc_hero_iphone-13-pro.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.section_hero.iphone-13 {
+  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c546cea90a95057f01971f_hero_iphone-13.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.section_hero.aiprods-pro {
+  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c5e4b362d0e656dd2b3f9e_hero_airpods-pro.jpg");
+  background-position: 50%;
+  background-size: cover;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 47px;
+  padding-bottom: 47px;
+  display: flex;
+}
+
+.section_hero.ipad-air {
+  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c72f2bc8fb76275476c81b_hero_ipad-air-large.jpg");
+  background-position: 50%;
+  background-size: cover;
+  justify-content: space-between;
+  padding-top: 53px;
+  padding-bottom: 53px;
+  display: flex;
+  position: relative;
+}
+
+.section_hero.ipad {
+  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c7307f314c958ddeed36f8_hero_ipad.jpg");
+  background-position: 50%;
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
+
+.section_hero.iphone-family {
+  background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c731ce98a0b847a797511c_hero_iphone-family.jpg");
+  background-position: 50%;
+  background-size: cover;
+  position: relative;
+}
+
 .div_hero-contain {
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
   display: flex;
+}
+
+.div_hero-contain.ipad-air {
+  margin-top: 4px;
+}
+
+.div_hero-contain.ipad {
+  width: 893px;
 }
 
 .div_hero-content-contain {
@@ -2162,6 +2233,17 @@ body {
   margin-top: 14px;
 }
 
+.div_subhead.iphone-16e {
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+  display: flex;
+}
+
+.div_subhead.ipad-air {
+  margin-top: 13px;
+}
+
 .paragraph_subhead {
   color: #1d1d1f;
   text-align: center;
@@ -2172,6 +2254,10 @@ body {
 .paragraph_subhead.contrast {
   color: #f5f5f7;
   letter-spacing: .2px;
+}
+
+.paragraph_subhead.iphone-13 {
+  color: #fec2ff;
 }
 
 .button {
@@ -2419,7 +2505,7 @@ body {
 }
 
 .image_ipad-air-logo {
-  height: 33px;
+  height: 39px;
 }
 
 .image_apple-watch-logo {
@@ -2435,12 +2521,14 @@ body {
 }
 
 .div_cta {
+  z-index: 1;
   grid-column-gap: 13px;
   grid-row-gap: 13px;
   justify-content: center;
   align-items: center;
   margin-top: 19px;
   display: flex;
+  position: relative;
 }
 
 .div_cta.macbook-pro {
@@ -2469,9 +2557,10 @@ body {
 
 .text_promo-callout {
   color: #6e6e73;
-  letter-spacing: -.2px;
+  letter-spacing: -.3px;
   font-family: SF Pro Text, sans-serif;
-  line-height: 18px;
+  font-size: 17px;
+  line-height: 21px;
 }
 
 .c1 {
@@ -2517,7 +2606,26 @@ body {
   background-clip: text;
 }
 
+.div_hero-callout.ipad-air {
+  margin-top: 10px;
+}
+
+.div_cover {
+  position: absolute;
+  inset: 0%;
+}
+
 @media screen and (min-width: 1280px) {
+  .section_hero {
+    height: 692px;
+  }
+
+  .section_hero.ipad {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c7307f314c958ddeed36f8_hero_ipad.jpg");
+    background-position: 50%;
+    background-size: cover;
+  }
+
   .button.elevated.white {
     color: #f5f5f7;
     background-color: #0000;
@@ -2583,6 +2691,34 @@ body {
     padding-bottom: 61px;
   }
 
+  .section_hero.iphone-14-pro {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c544821c49f30fb02db355_hero_iphone-14-pro-medium.jpg");
+  }
+
+  .section_hero.iphone-14 {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c544d264b058b89c131aea_hero_iphone-14-medium.jpg");
+  }
+
+  .section_hero.iphone-13-pro {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c5462593634efa392032b4_hero_iphone-13-pro-medium.jpg");
+  }
+
+  .section_hero.iphone-13 {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c546dc6d1438665296a96a_hero_iphone-13-medium.jpg");
+  }
+
+  .section_hero.aiprods-pro {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c5e4e8cac546d4566238b3_hero_airpods-pro-medium.jpg");
+    padding-top: 53px;
+    padding-bottom: 53px;
+  }
+
+  .section_hero.iphone-family {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c73209d05b33bd1bad1443_hero_iphone-family-medium.jpg");
+    padding-top: 61px;
+    padding-bottom: 61px;
+  }
+
   .div_hero-contain {
     justify-content: flex-start;
     align-items: center;
@@ -2600,6 +2736,10 @@ body {
 
   .div_subhead.apple-watch {
     margin-top: 12px;
+  }
+
+  .div_subhead.iphone-16e {
+    margin-top: 33px;
   }
 
   .paragraph_subhead {
@@ -2696,7 +2836,7 @@ body {
   }
 
   .image_ipad-air-logo {
-    height: 26px;
+    height: 39px;
   }
 
   .image_apple-watch-logo {
@@ -2770,6 +2910,37 @@ body {
     padding-bottom: 37px;
   }
 
+  .section_hero.iphone-14-pro {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c544908c6a2c310966dbbe_hero_iphone-14-pro-small.jpg");
+  }
+
+  .section_hero.iphone-14 {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c544ddcd96a68be6091e07_hero_iphone-14-small.jpg");
+  }
+
+  .section_hero.iphone-13-pro {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c546322e8b532035f00957_hero_iphone-13-pro-small.jpg");
+  }
+
+  .section_hero.aiprods-pro {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c546dc6d1438665296a96a_hero_iphone-13-medium.jpg");
+    padding-top: 37px;
+    padding-bottom: 37px;
+  }
+
+  .section_hero.ipad-air {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c72fc2a2f6329973abc38a_hero_ipad-air-small.jpg");
+    padding-top: 37px;
+    padding-bottom: 37px;
+  }
+
+  .section_hero.iphone-family {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c7327d9375e482935fda28_hero_iphone-family-small.jpg");
+    justify-content: flex-start;
+    padding-top: 37px;
+    padding-bottom: 37px;
+  }
+
   .paragraph_hero-heading {
     letter-spacing: .1px;
     font-size: 32px;
@@ -2785,7 +2956,11 @@ body {
   }
 
   .div_subhead.iphone-16e {
-    margin-top: 25px;
+    margin-top: 28px;
+  }
+
+  .div_subhead.ipad-air {
+    margin-top: 11px;
   }
 
   .paragraph_subhead {
@@ -2854,6 +3029,10 @@ body {
     padding-top: 41px;
   }
 
+  .image_ipad-air-logo {
+    height: 26px;
+  }
+
   .image_apple-watch-logo {
     height: 45px;
   }
@@ -2875,7 +3054,7 @@ body {
     line-height: 18px;
   }
 
-  .div_promo-callout {
+  .div_promo-callout, .div_hero-callout.ipad-air {
     margin-top: 8px;
   }
 }
@@ -2893,6 +3072,12 @@ body {
     background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/677ae7eec1f78dc62f8744da_Hero-AppleWatch_Small.jpg");
     padding-top: 37px;
     padding-bottom: 37px;
+  }
+
+  .section_hero.iphone-13 {
+    background-image: url("https://cdn.prod.website-files.com/666e26f16faf01ec396131bc/67c546e63090fd4bbfb99b66_hero_iphone-13-small.jpg");
+    justify-content: center;
+    align-items: center;
   }
 
   .div_hero-heading.apple-watch {
